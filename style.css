@@ -24,20 +24,21 @@ body{
     overflow: hidden;
 }
 .timer{
+  margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
   width: 30%;
-  background-color: lightblue;
+  background-color: #f0e68c;
   text-align: center;
   font-family: 'Arimo', sans-serif;
-  font-size: 100;
+  font-size: 8vw;
   color: white;
 }
 #slate{
   position: relative;
   width: 75%;
   height: 50%;
-  margin-top: 50px;
+  margin-top: 25px;
   background-color: #ffffcc;
   text-align: center;
   margin-right: auto;
@@ -53,4 +54,36 @@ img{
   left: 0;
   right: 0;
   margin: auto;
+}
+#butDiv{
+  margin-top: 20px;
+  text-align: center;
+}
+#start{
+  position: relative;
+  padding: 0;
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #b82b53);
+  background-image: -moz-linear-gradient(top, #d93434, #b82b53);
+  background-image: -ms-linear-gradient(top, #d93434, #b82b53);
+  background-image: -o-linear-gradient(top, #d93434, #b82b53);
+  background-image: linear-gradient(to bottom, #d93434, #b82b53);
+  -webkit-box-shadow: 0px 2px 10px #666666;
+  -moz-box-shadow: 0px 2px 10px #666666;
+  box-shadow: 0px 2px 10px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 50px;
+  margin-right : 50px;
+  /*border: solid #c6cacc 2px;*/
+  text-decoration: none;
+  border: 0;
+}
+
+
+#start:hover {
+  background: #e35454;
+  text-decoration: none;
 }
