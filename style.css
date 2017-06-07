@@ -1,0 +1,56 @@
+body{
+  background-color: #e9967a
+}
+.title {
+    position: relative;
+    font-size: 56px;
+    color: white;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    width: 100%;
+    background-color: #ff6347;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.title:before {
+    content: "Derivitive Bee";
+    height: 60%;
+    position: absolute;
+    color: 	#f0e68c;
+    overflow: hidden;
+}
+.timer{
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  font-size: 100;
+  color: white;
+}
+#slate{
+  position: relative;
+  width: 75%;
+  height: 50%;
+  margin-top: 50px;
+  background-color: #ffffcc;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+img{
+  border: 0;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
