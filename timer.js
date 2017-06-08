@@ -9,7 +9,7 @@ function Timer() {
         var sec = s % 60;
         return nf(min, 2) + ":" + nf(sec, 2);
     }
-    this.createTimer = function(time) {
+    Timer.prototype.createTimer = function(time) {
         sound = loadSound("ding.mp3", function() {
             console.log("Sound Loaded!");
         });
@@ -17,7 +17,8 @@ function Timer() {
         timer = createDiv(fixTime(timeLeft));
         timer.addClass("timer");
     }
-    this.startTimer = function() {
+
+    Timer.prototype.startTimer = function() {
         function tickDown() {
             counter++;
             // console.log(counter);

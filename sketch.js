@@ -1,12 +1,19 @@
 var callLink = "http://latex.codecogs.com/svg.latex?";
 var slate;
+var start;
 function setup() {
   noCanvas();
-  var timer = new Timer();
-  timer.createTimer(10);
+  var timekeeper = new Timer();
+  timekeeper.createTimer(10);
   createSlate();
   setupEquation();
   makeButton();
+  
+
+  start.mousePressed(function(){
+    timekeeper.startTimer()
+  });
+
 }
 function createSlate(){
   slate = createDiv("");
@@ -22,12 +29,11 @@ function setupEquation(){
 
 function makeButton(){
   var buttonDiv = createDiv("");
-  var start = createButton("Start Timer");
+  start = createButton("Start Timer");
   var newEQ = createButton("New Equation");
   start.parent(buttonDiv);
   newEQ.parent(buttonDiv);
   buttonDiv.id("butDiv");
   start.id('start');
   newEQ.id('start');
-  start.mousePressed(timer.startTimer());
 }
