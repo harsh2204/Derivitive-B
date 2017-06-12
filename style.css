@@ -36,7 +36,7 @@ body{
 }
 #slate{
   position: relative;
-  width: 75%;
+  width: 55%;
   height: 50%;
   margin-top: 25px;
   background-color: #ffffcc;
@@ -86,4 +86,16 @@ img{
 #start:hover {
   background: #e35454;
   text-decoration: none;
+}
+#dif{
+  /*border: 1px dashed red;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 150px;*/
+}
+#label{
+  background:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/down4-16.png') right center no-repeat;
+  padding:0 20px 0 10px;
+  border:solid 1px #eee;
 }
