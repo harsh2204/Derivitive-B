@@ -1,8 +1,24 @@
-{"problemSet":1,
-  "problem": [
-  { "question": "\\frac{d}{dx}\\ln(x)", "answer": "\\frac{1}{x}", "difficulty": "easy1"},
-  { "question": "\\frac{d}{dx}\\ln(x)", "answer": "\\frac{1}{x}", "difficulty": "easy2"},
-  { "question": "\\frac{d}{dx}\\ln(x)", "answer": "\\frac{1}{x}", "difficulty": "easy3"},
-  { "question": "\\frac{d}{dx}\\ln(x)", "answer": "\\frac{1}{x}", "difficulty": "easy4"},
-  ]
+{
+    "problemSet": 1,
+    "problem": [{
+            "question": "\\frac{d}{dx}\\ln(x)",
+            "answer": "\\frac{1}{x}",
+            "difficulty": "easy1"
+        },
+        {
+            "question": "\\frac{d}{dx}\\ln(x)",
+            "answer": "\\frac{1}{x}",
+            "difficulty": "easy2"
+        },
+        {
+            "question": "\\frac{d}{dx}\\ln(x)",
+            "answer": "\\frac{1}{x}",
+            "difficulty": "easy3"
+        },
+        {
+            "question": "\\frac{d}{dx}\\ln(x)",
+            "answer": "\\frac{1}{x}",
+            "difficulty": "easy4"
+        },
+    ]
 }
