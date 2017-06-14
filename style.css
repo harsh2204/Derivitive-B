@@ -24,6 +24,8 @@ body{
     overflow: hidden;
 }
 .timer{
+  display: inline-block;
+  margin: 0 auto;
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
@@ -62,6 +64,7 @@ img{
 #start{
   position: relative;
   padding: 0;
+  display: inline-block;
   background: #d93434;
   background-image: -webkit-linear-gradient(top, #d93434, #b82b53);
   background-image: -moz-linear-gradient(top, #d93434, #b82b53);
@@ -82,8 +85,36 @@ img{
   border: 0;
 }
 
+#buttonTop{
+  position: relative;
+  padding: 0;
+  display: inline-block;
+  /*float: left;*/
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #b82b53);
+  background-image: -moz-linear-gradient(top, #d93434, #b82b53);
+  background-image: -ms-linear-gradient(top, #d93434, #b82b53);
+  background-image: -o-linear-gradient(top, #d93434, #b82b53);
+  background-image: linear-gradient(to bottom, #d93434, #b82b53);
+  -webkit-box-shadow: 0px 2px 10px #666666;
+  -moz-box-shadow: 0px 2px 10px #666666;
+  box-shadow: 0px 2px 10px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  margin-right : 20px;
+  /*border: solid #c6cacc 2px;*/
+  text-decoration: none;
+  border: 0;
+}
 
 #start:hover {
+  background: #e35454;
+  text-decoration: none;
+}
+#button:hover {
   background: #e35454;
   text-decoration: none;
 }
@@ -95,7 +126,14 @@ img{
     width: 150px;*/
 }
 #label{
-  background:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/down4-16.png') right center no-repeat;
-  padding:0 20px 0 10px;
-  border:solid 1px #eee;
+    background:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/down4-16.png') right center no-repeat;
+    padding:0 20px 0 10px;
+    border:solid 1px #eee;
+}
+.hover {
+    background:blue;
+    color:white;
+}
+#timerP{
+  text-align: center;
 }
