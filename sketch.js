@@ -41,7 +41,7 @@ function setupSelector() {
     difficulty.parent(slate);
 
     //----------------------------------------------------
-    var url = "problems.json";
+    var url = "https://raw.githubusercontent.com/harsh2204/Derivitive-B/master/problems.json";
     $.getJSON(url,{},function(json) {
           problemSet = json;
           console.log(json);
