@@ -41,15 +41,15 @@ function setupSelector() {
     difficulty.parent(slate);
 
     //----------------------------------------------------
-    var url = "https://raw.githubusercontent.com/harsh2204/Derivitive-B/master/problems.json";
+    var url = "problems.json";
     $.getJSON(url,{},function(json) {
           problemSet = json;
           console.log(json);
             console.log("JSON LOADED");
-            // for (var i = 0; i < problemSet.problem.length; i++) {
-            //     console.log("GOing through the problemSet " + problemSet.problem[i].difficulty);
-            //     difficulty.option(problemSet.problem[i].difficulty);
-            // }
+            for (var i = 0; i < problemSet.problem.length; i++) {
+                console.log("GOing through the problemSet " + problemSet.problem[i].difficulty);
+                difficulty.option(problemSet.problem[i].difficulty);
+            }
         }
     ).fail(function(data){
       console.log(data);

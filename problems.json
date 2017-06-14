@@ -19,6 +19,5 @@
             "question": "\\frac{d}{dx}\\ln(x)",
             "answer": "\\frac{1}{x}",
             "difficulty": "easy4"
-        },
-    ]
+        }]
 }
